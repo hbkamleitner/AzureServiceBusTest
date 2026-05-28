@@ -47,8 +47,12 @@ try
 
     processor.ProcessMessageAsync += MessageHandler;
     processor.ProcessErrorAsync += ErrorHandler; 
+    await processor.StartProcessingAsync();
     
     Console.WriteLine("Message received successfully.");
+    Console.ReadLine();
+
+    await processor.StopProcessingAsync();
 }
 catch (Exception ex)
 {

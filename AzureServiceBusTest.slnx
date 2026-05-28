@@ -1,4 +1,5 @@
 <Solution>
   <Project Path="ReceiverApp/ReceiverApp.csproj" />
   <Project Path="SenderApp/SenderApp.csproj" />
+  <Project Path="TopicsApp/TopicsApp.csproj" />
 </Solution>
