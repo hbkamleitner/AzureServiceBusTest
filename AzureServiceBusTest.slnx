@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="ReceiverApp/ReceiverApp.csproj" />
   <Project Path="SenderApp/SenderApp.csproj" />
 </Solution>
